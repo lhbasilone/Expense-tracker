@@ -7,7 +7,7 @@ const TransactionList = () => {
 
     return (
         <>
-            <h3 className="text-slate-300 text-xl font-bold w-full">Historial</h3>
+            <h3 className="text-slate-300 text-xl font-bold w-full font-mono">Historial</h3>
             <ul>
             {transactions.map(transaction => (
                 <TransactionsItem transaction={transaction} key={transaction.id}/>

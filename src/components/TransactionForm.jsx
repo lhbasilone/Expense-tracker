@@ -33,7 +33,7 @@ const TransactionForm = () => {
           className='bg-zinc-600 text-white px-3 py-2 rounded-lg block mb-2 w-full'
           value={amount}
         />
-        <button className='bg-indigo-700 text-white px-3 py-2 rounded-lg block mb-2 w-full'>
+        <button className='bg-indigo-700 hover:bg-indigo-800 active:bg-indigo-950  text-white px-3 py-2 rounded-lg block mb-2 w-full '>
           Añadir transacción</button>
 
 
