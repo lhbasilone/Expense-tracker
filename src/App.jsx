@@ -5,6 +5,7 @@ import './App.css'
 import TransactionList from "./components/TransactionList"
 import IncomeExpenses from "./components/IncomeExpenses"
 import ExpenseChart from "./components/ExpenseChart"
+import Footer from "./components/Footer"
 
 const App = () => {
   return (
@@ -22,6 +23,9 @@ const App = () => {
               <ExpenseChart/>
               <TransactionList/>
             </div>
+          </div>
+          <div className="flex items-center justify-center py-5">
+          <Footer/>
           </div>
         </div>
       </div>
